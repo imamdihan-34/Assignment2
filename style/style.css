@@ -55,3 +55,10 @@
     width: 201px;
     height: 44px;
 }
+#button-secondary{
+    padding: 12px 16px;
+    background-color: rgba(240, 248, 255, 0);
+    border: 1px solid #00FF88;
+    border-radius: 40px;
+    font-size: 16px;
+}
