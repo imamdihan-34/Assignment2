@@ -113,8 +113,6 @@
   opacity: 10%;
   height: .05px;
   border: none;
-  
-
  
 }
 .stats-container{
@@ -136,7 +134,7 @@
     text-align: left;
     padding-top: 16px;
     font-size: 16px;
-    color: rgba(255, 255, 255, 0.555);
+    color: #1A0B2E;
 }
 .card-container h5 {
     text-align: left;
@@ -159,7 +157,7 @@
     
 }
 #audio:hover{
-    background-color: #580832;
+    background-color: rgba(70, 7, 84, 0.868);
 }
 #mobile{
     grid-area: mobile;
@@ -168,13 +166,16 @@
     background-color: #3511656d;
 }
 #mobile:hover{
-    background-color: #580832;
+    background-color: rgba(70, 7, 84, 0.868);
 }
 #global{
     grid-area: global;
     padding: 40px;
     border-radius: 20px;
-    background-color: #580832;
+    background-color: #3511656d;
+}
+#global:hover{
+    background-color: rgba(70, 7, 84, 0.868);
 }
 #exclusive{
     grid-area: exclusive;
@@ -183,7 +184,7 @@
     background-color: #3511656d;
 }
 #exclusive:hover{
-    background-color: #580832;
+    background-color: rgba(70, 7, 84, 0.868);
 }
 #rich{
     grid-area: rich;
@@ -192,7 +193,7 @@
     background-color:#3511656d;
 }
 #rich:hover{
-    background-color: #580832;
+    background-color: rgba(70, 7, 84, 0.868);
 }
 #Future-contain{
    display: flex;
@@ -215,7 +216,7 @@
 
 }
 .card:hover{
-    background-color: #580832;
+    background-color: rgba(70, 7, 84, 0.868);
     color: white;
 }
 
@@ -267,7 +268,7 @@
 
 }
 .host:hover{
-    background-color: #580832;
+    background-color: rgba(70, 7, 84, 0.868);
 }
 .host{
     display: flex;
