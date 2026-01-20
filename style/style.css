@@ -346,6 +346,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-position: center;
 }
 
 
@@ -398,9 +399,9 @@
         width: 100%;
     }
     .navbar div {
-        flex-wrap: wrap;
+    flex-wrap: wrap;
         padding: 10px;
-        justify-content: space-between;
+    justify-content: space-between;
     }
     
     .navbar h1 {
@@ -592,7 +593,9 @@
         margin-top: 15px;
     }
     #footer-section {
+        background-image: url(../assets/footer-bg.png);
         padding: 50px 20px;
+        background-position: initial;
     }
 
     .footer-logo {
