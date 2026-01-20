@@ -21,7 +21,7 @@
     left: auto;
     top: 205px;
     justify-content: center;
-    display: flex;
+    
 
 }
 .hero-text{
@@ -54,6 +54,11 @@
     text-align: center !important;
     width: 201px;
     height: 44px;
+    display: flex;
+    gap: 4px;
+}
+#button-primary span img{
+    padding-top: 2px;
 }
 #button-secondary{
     padding: 12px 16px;
@@ -61,4 +66,54 @@
     border: 1px solid #00FF88;
     border-radius: 40px;
     font-size: 16px;
+    display: flex;
+    gap: 6px;
+    
+}
+#button-secondary span img{
+    padding-top: 5px;
+}
+#button-secondary:hover{
+    background-color: green;
+}
+#button-primary:hover{
+    background-color: gray;
+}
+.about-section {
+    background-color: #1A0B2E;
+    color: white;
+    text-align: center;
+}
+.about-section h1 {
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 100px;
+}
+.about-section p {
+    font-size: 16px;
+}
+.line{
+ 
+  color: #E5E7EB;
+  opacity: 10%;
+  height: .05px;
+  border: none;
+  
+
+ 
+}
+.stats-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1A0B2E;
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.stats h2 {
+    color: #00FF88;
+    font-size: 48px;
+    font-weight: 700;
+    
 }
