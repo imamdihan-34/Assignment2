@@ -1,3 +1,6 @@
+.navbar{
+    border-bottom: 1px solid #351165 ;
+}
 #hero-section{
     background-image: url(../assets/hero-bg.png);
     background-repeat: no-repeat;
@@ -81,7 +84,7 @@
 }
 .about-section {
     background-color: #1A0B2E;
-    color: white;
+    color: white ;
     text-align: center;
 }
 .about-section h1 {
@@ -116,4 +119,66 @@
     font-size: 48px;
     font-weight: 700;
     
+}
+.card-container p{
+    text-align: left;
+    padding-top: 16px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.555);
+}
+.card-container h5 {
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 16px;
+}
+#card-text{
+    grid-area: text;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+#audio{
+    grid-area: audio;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #3511656d;
+    padding-top: 120px;
+    
+}
+#audio:hover{
+    background-color: #580832;
+}
+#mobile{
+    grid-area: mobile;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #3511656d;
+}
+#mobile:hover{
+    background-color: #580832;
+}
+#global{
+    grid-area: global;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #580832;
+}
+#exclusive{
+    grid-area: exclusive;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #3511656d;
+}
+#exclusive:hover{
+    background-color: #580832;
+}
+#rich{
+    grid-area: rich;
+    padding: 40px;
+    border-radius: 20px;
+    background-color:#3511656d;
+}
+#rich:hover{
+    background-color: #580832;
 }
